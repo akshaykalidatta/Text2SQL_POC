@@ -1,0 +1,572 @@
+{"table_name": "cfnameaddrd0", "column_name": "document_type", "description": "Type of document", "data_type": "string"}
+{"table_name": "cfnameaddrd0", "column_name": "document_path", "description": "Path or reference to the document", "data_type": "string"}
+{"table_name": "cfnameaddrd0", "column_name": "comm_pref_flag", "description": "Communication preference flag", "data_type": "int64"}
+{"table_name": "cfnameaddrd0", "column_name": "cust_addr_cntry_cd", "description": "Country code for customer address", "data_type": "string"}
+{"table_name": "cfnameaddrd0", "column_name": "cust_pri_ph_isd_cd", "description": "ISD code for customer's primary phone", "data_type": "string"}
+{"table_name": "cfnameaddrd0", "column_name": "cust_sec_ph_isd_cd", "description": "ISD code for customer's secondary phone", "data_type": "string"}
+{"table_name": "cfnameaddrd0", "column_name": "cust_addr_city_seq", "description": "Sequence number for customer address city", "data_type": "int64"}
+{"table_name": "cfnameaddrd0", "column_name": "cf_uid_mig_status", "description": "Migrated status of CF UID", "data_type": "int64"}
+{"table_name": "cfnameaddrd0", "column_name": "cf_uid_ref_no", "description": "Reference number for CF UID", "data_type": "string"}
+{"table_name": "cfnameaddrd0", "column_name": "name_verfn_flg", "description": "Flag indicating name verification", "data_type": "int64"}
+{"table_name": "cfnameaddrd0", "column_name": "address_verfn_flg", "description": "Flag indicating address verification", "data_type": "int64"}
+{"table_name": "cfnameaddrd0", "column_name": "email_verfn_flg", "description": "Flag indicating email verification", "data_type": "int64"}
+{"table_name": "cfnameaddrd0", "column_name": "mobile_verfn_flg", "description": "Flag indicating mobile verification", "data_type": "int64"}
+{"table_name": "cfnameaddrd0", "column_name": "phy_onl_flg", "description": "Flag indicating physical or online verification", "data_type": "char(1)"}
+{"table_name": "cfnameaddrd0", "column_name": "last_sms_vrfn_dt", "description": "Timestamp for the last SMS verification date", "data_type": "timestamp"}
+{"table_name": "cfnameaddrd0", "column_name": "last_email_vrfn_dt", "description": "Timestamp for the last email verification date", "data_type": "timestamp"}
+{"table_name": "cfnameaddrd0", "column_name": "last_pan_vrfn_dt", "description": "Timestamp for the last PAN verification date", "data_type": "timestamp"}
+{"table_name": "cfnameaddrd0", "column_name": "pan_verified_dt", "description": "Timestamp for the PAN verification", "data_type": "timestamp"}
+{"table_name": "cfnameaddrd0", "column_name": "bank_id", "description": "Identifier for the bank", "data_type": "int64"}
+{"table_name": "cfnameaddrd0", "column_name": "cid_numb", "description": "Unique identification number for the customer", "data_type": "int64"}
+{"table_name": "cfnameaddrd0", "column_name": "na_seq_numb", "description": "Sequence number for NA", "data_type": "int64"}
+{"table_name": "cfnameaddrd0", "column_name": "brnch_numb", "description": "Branch number", "data_type": "int64"}
+{"table_name": "cfnameaddrd0", "column_name": "bo_title", "description": "Title of the beneficiary owner", "data_type": "string"}
+{"table_name": "cfnameaddrd0", "column_name": "cust_name", "description": "Customer's name", "data_type": "string"}
+{"table_name": "cfnameaddrd0", "column_name": "bo_middle_name", "description": "Middle name of the beneficiary owner", "data_type": "string"}
+{"table_name": "cfnameaddrd0", "column_name": "cust_srch_name", "description": "Search name for the customer", "data_type": "string"}
+{"table_name": "cfnameaddrd0", "column_name": "bo_suffix", "description": "Suffix for the beneficiary owner", "data_type": "string"}
+{"table_name": "cfnameaddrd0", "column_name": "cust_phntc_name", "description": "Phonetic name of the customer", "data_type": "string"}
+{"table_name": "cfnameaddrd0", "column_name": "cust_addr_1", "description": "Address line 1 of the customer", "data_type": "string"}
+{"table_name": "cfnameaddrd0", "column_name": "cust_addr_2", "description": "Address line 2 of the customer", "data_type": "string"}
+{"table_name": "cfnameaddrd0", "column_name": "cust_addr_3", "description": "Address line 3 of the customer", "data_type": "string"}
+{"table_name": "cfnameaddrd0", "column_name": "cust_addr_city", "description": "City in customer address", "data_type": "string"}
+{"table_name": "cfnameaddrd0", "column_name": "cust_addr_state", "description": "customer State address. used for customer address aggregation", "data_type": "string"}
+{"table_name": "cfnameaddrd0", "column_name": "cust_addr_cntry", "description": "Country in customer address", "data_type": "string"}
+{"table_name": "cfnameaddrd0", "column_name": "cust_addr_zip", "description": "ZIP code in customer address", "data_type": "string"}
+{"table_name": "cfnameaddrd0", "column_name": "cust_na_purp_cd", "description": "Purpose code for NA", "data_type": "int64"}
+{"table_name": "cfnameaddrd0", "column_name": "cust_ph_1_indc", "description": "Indicator for customer phone 1", "data_type": "string"}
+{"table_name": "cfnameaddrd0", "column_name": "cust_ph_1", "description": "Customer phone 1", "data_type": "string"}
+{"table_name": "cfnameaddrd0", "column_name": "cust_ph_2_indc", "description": "Indicator for customer phone 2", "data_type": "string"}
+{"table_name": "cfnameaddrd0", "column_name": "cust_ph_2", "description": "Customer phone 2", "data_type": "string"}
+{"table_name": "cfnameaddrd0", "column_name": "cust_addl_phone", "description": "Additional phone number for customer", "data_type": "string"}
+{"table_name": "cfnameaddrd0", "column_name": "cust_fax", "description": "Fax number for customer", "data_type": "string"}
+{"table_name": "cfnameaddrd0", "column_name": "cust_telex", "description": "Telex number for customer", "data_type": "string"}
+{"table_name": "cfnameaddrd0", "column_name": "na_date_estd", "description": "Timestamp for the NA date establishment", "data_type": "timestamp"}
+{"table_name": "cfnameaddrd0", "column_name": "na_dummy1", "description": "Dummy field 1 for NA", "data_type": "string"}
+{"table_name": "cfnameaddrd0", "column_name": "na_dummy2", "description": "Dummy field 2 for NA", "data_type": "string"}
+{"table_name": "cfnameaddrd0", "column_name": "na_dummy3", "description": "Dummy field 3 for NA", "data_type": "int64"}
+{"table_name": "cfnameaddrd0", "column_name": "na_dummy4", "description": "Dummy field 4 for NA", "data_type": "string"}
+{"table_name": "cfnameaddrd0", "column_name": "na_dummy5", "description": "Dummy field 5 for NA", "data_type": "int64"}
+{"table_name": "cfnameaddrd0", "column_name": "hldr_fthr_hsb_nam", "description": "Name of holder's father or husband", "data_type": "string"}
+{"table_name":"cfnameaddrd0", "column_name": "hldr_incmtx_pan", "description": "PAN associated with income tax", "data_type": "string"}
+{"table_name":"cfnameaddrd0", "column_name": "it_circle", "description": "Income tax circle", "data_type": "string"}
+{"table_name":"cfnameaddrd0", "column_name": "mnr_dt_of_brth", "description": "Minor's date of birth", "data_type": "timestamp"}
+{"table_name":"cfnameaddrd0", "column_name": "del_flag", "description": "Deletion flag", "data_type": "string"}
+{"table_name":"cfnameaddrd0", "column_name": "date_last_mdfcn", "description": "Timestamp for the date of last modification", "data_type": "timestamp"}
+{"table_name":"cfnameaddrd0", "column_name": "pan_mdfy_rsn_cd", "description": "Reason code for PAN modification", "data_type": "int64"}
+{"table_name":"cfnameaddrd0", "column_name": "cust_district", "description": "District of the customer", "data_type": "string"}
+{"table_name":"cfnameaddrd0", "column_name": "cust_name_rsn_cd", "description": "Reason code for customer name", "data_type": "string"}
+{"table_name":"cfnameaddrd0", "column_name": "cf_uid", "description": "Unique identifier for CF UID", "data_type": "string"}
+{"table_name":"cfnameaddrd0", "column_name": "cust_nom_srl_numb", "description": "Serial number for customer nomination", "data_type": "int64"}
+{"table_name":"cfnameaddrd0", "column_name":"cust_relationship","description":"Customer relationship status","data_type":"int64"}
+{"table_name":"cfnameaddrd0", "column_name":"cust_nom_perctg","description":"Percentage of customer nomination","data_type":"float64"}
+{"table_name":"cfnameaddrd0", "column_name":"cust_nom_res_sec_flag","description":"Flag indicating customer nomination resolution","data_type":"string"}
+{"table_name":"cfnameaddrd0", "column_name":"cf_uid_vrfn_flg","description":"Verification flag for CF UID","data_type":"int64"}
+{"table_name":"cfnameaddrd0", "column_name":"cust_pri_ph","description":"Customer's primary phone number","data_type":"string"}
+{"table_name":"cfnameaddrd0", "column_name":"cust_sec_ph","description":"Customer's secondary phone number","data_type":"string"}
+{"table_name":"cfnameaddrd0", "column_name":"cust_pri_email","description":"Customer's primary email","data_type":"string"}
+{"table_name":"cfnameaddrd0", "column_name":"cust_sec_email","description":"Customer's secondary email","data_type":"string"}
+{"table_name":"cfnameaddrd0", "column_name":"smart_reg_dereg_flg","description":"Flag indicating smart registration or deregistration","data_type":"string"}
+{"table_name":"cfnameaddrd0", "column_name":"cust_addr_state_cd","description":"State","data_type":"string"}
+{"table_name":"cfnameaddrd0", "column_name":"hldr_death_dt","description":"Date of holder's death","data_type":"timestamp"}
+{"table_name":"cfnameaddrd0", "column_name":"hldr_del_dt","description":"Date of holder's deletion","data_type":"timestamp"}
+{"table_name":"cfnameaddrd0", "column_name":"hldr_del_rsn_cd","description":"Reason code for holder's deletion","data_type":"int64"}
+{"table_name":"cfnameaddrd0", "column_name":"load_date","description":"Date of data loading","data_type":"date"}
+{"table_name":"cfnameaddrd0", "column_name":"batch_id","description":"Unique identifier for a batch of data","data_type":"int64"}
+{"table_name":"cfnameaddrd0", "column_name":"start_date","description":"Starting date associated with a record or entry","data_type":"string"}
+{"table_name":"cfcustmastd0", "column_name": "esign_nom_verified_doc_path", "description": "Path or reference to electronically verified nominated documents", "data_type": "string"}
+{"table_name":"cfcustmastd0", "column_name": "optout_flag", "description": "Flag indicating whether the owner opted out of a service or agreement", "data_type": "string"}
+{"table_name":"cfcustmastd0", "column_name": "optout_date", "description": "Timestamp for the date of opting out", "data_type": "timestamp"}
+{"table_name":"cfcustmastd0", "column_name": "legal_entity_idfr", "description": "Identification string for the legal entity", "data_type": "string"}
+{"table_name":"cfcustmastd0", "column_name": "pld_process_flag", "description": "Flag for a particular process within the system", "data_type": "string"}
+{"table_name":"cfcustmastd0", "column_name": "email_rtadwnld_flag", "description": "Flag indicating email download permissions", "data_type": "string"}
+{"table_name":"cfcustmastd0", "column_name": "bo_bsda_flag", "description": "Flag indicating ownership of a Basic Services Demat Account (BSDA)", "data_type": "string"}
+{"table_name":"cfcustmastd0", "column_name": "rgess_estd_flag", "description": "Flag indicating the establishment status of the Rajiv Gandhi Equity Savings Scheme (RGESS)", "data_type": "string"}
+{"table_name":"cfcustmastd0", "column_name": "cust_opening_date", "description": "Timestamp for the date of customer account opening", "data_type": "timestamp"}
+{"table_name":"cfcustmastd0", "column_name": "rgess_estd_date", "description": "Timestamp for the date of RGESS establishment", "data_type": "timestamp"}
+{"table_name":"cfcustmastd0", "column_name": "bsda_estd_date", "description": "Timestamp for the date of BSDA establishment", "data_type": "timestamp"}
+{"table_name":"cfcustmastd0", "column_name": "rgess_lockin_flag", "description": "Flag indicating lock-in status for RGESS investments", "data_type": "string"}
+{"table_name":"cfcustmastd0", "column_name": "sms_payin_reg_flag", "description": "Flag for SMS registration related to pay-in instructions", "data_type": "string"}
+{"table_name":"cfcustmastd0", "column_name": "sms_payin_dereg_flag", "description": "Flag for SMS deregistration related to pay-in instructions", "data_type": "string"}
+{"table_name":"cfcustmastd0", "column_name": "rgess_invest_strt_dt", "description": "Timestamp for the start date of RGESS investment", "data_type": "timestamp"}
+{"table_name":"cfcustmastd0", "column_name": "rgess_invest_end_dt", "description": "Timestamp for the end date of RGESS investment", "data_type": "timestamp"}
+{"table_name":"cfcustmastd0", "column_name": "email_stmt_flag", "description": "Flag for email statement delivery preferences", "data_type": "string"}
+{"table_name":"cfcustmastd0", "column_name": "cas_mode", "description": "Mode of operation for a current account and savings account (CAS)", "data_type": "string"}
+{"table_name":"cfcustmastd0", "column_name": "mental_disable_flag", "description": "Flag indicating mental disability status", "data_type": "string"}
+{"table_name":"cfcustmastd0", "column_name": "preferred_depo", "description": "Preferred depository for securities", "data_type": "string"}
+{"table_name":"cfcustmastd0", "column_name": "cas_flag", "description": "Flag indicating CAS status", "data_type": "string"}
+{"table_name":"cfcustmastd0", "column_name": "mf_email_flag", "description": "Flag indicating email preferences for mutual funds", "data_type": "string"}
+{"table_name":"cfcustmastd0", "column_name": "bo_req_rcv_dt", "description": "Timestamp for the date of BO request reception", "data_type": "timestamp"}
+{"table_name":"cfcustmastd0", "column_name": "poa_type_flag", "description": "Flag indicating the type of power of attorney", "data_type": "string"}
+{"table_name":"cfcustmastd0", "column_name": "family_account_flag", "description": "Flag indicating a family account association", "data_type": "string"}
+{"table_name":"cfcustmastd0", "column_name": "any_other_classfn", "description": "Integer for any other classification purpose", "data_type": "int64"}
+{"table_name":"cfcustmastd0", "column_name": "bonafide_flag", "description": "Flag indicating bonafide status", "data_type": "string"}
+{"table_name":"cfcustmastd0", "column_name": "bo_stl_pkt_flg", "description": "Flag indicating settlement package status", "data_type": "string"}
+{"table_name":"cfcustmastd0", "column_name": "bank_id", "description": "Identifier for the bank associated with the owner", "data_type": "int64"}
+{"table_name":"cfcustmastd0", "column_name": "cid_numb", "description": "Unique identification number for the customer", "data_type": "int64"}
+{"table_name":"cfcustmastd0", "column_name": "cust_type", "description": "Type of customer", "data_type": "int64"}
+{"table_name":"cfcustmastd0", "column_name": "cust_prod_numb", "description": "Product number associated with the customer", "data_type": "int64"}
+{"table_name":"cfcustmastd0", "column_name": "brnch_numb", "description": "Branch number associated with the customer", "data_type": "int64"}
+{"table_name":"cfcustmastd0", "column_name": "cust_date_estd", "description": "Timestamp for the date of customer establishment", "data_type": "timestamp"}
+{"table_name":"cfcustmastd0", "column_name": "cust_ss_numb", "description": "Social security number of the customer", "data_type": "string"}
+{"table_name":"cfcustmastd0", "column_name": "date_of_birth", "description": "date of birth of the customer. need to be converted to date type for age calculations", "data_type": "timestamp"}
+{"table_name":"cfcustmastd0", "column_name": "cust_sex_code", "description": "Code representing the gender of the customer", "data_type": "string"}
+{"table_name":"cfcustmastd0", "column_name": "cust_natly", "description": "Nationality code of the customer", "data_type": "string"}
+{"table_name":"cfcustmastd0", "column_name": "cust_officer_cd", "description": "Code for the officer associated with the customer", "data_type": "string"}
+{"table_name":"cfcustmastd0", "column_name": "cust_catg_1", "description": "Customer category classifications 1", "data_type": "int64"}
+{"table_name":"cfcustmastd0", "column_name": "cust_catg_2", "description": "Customer category classifications 2", "data_type": "int64"}
+{"table_name":"cfcustmastd0", "column_name": "cust_catg_3", "description": "Customer category classifications 3", "data_type": "int64"}
+{"table_name":"cfcustmastd0", "column_name": "cust_catg_4", "description": "Customer category classifications 4", "data_type": "int64"}
+{"table_name":"cfcustmastd0", "column_name": "cust_catg_5", "description": "Customer category classifications 5", "data_type": "int64"}
+{"table_name":"cfcustmastd0", "column_name": "bo_category", "description": "Category of the Beneficiary Owner", "data_type": "int64"}
+{"table_name":"cfcustmastd0", "column_name": "bo_acct_sts", "description": "Status of the BO account where 0 means closed or inactive account. when !=0 or non zero values means open or active account ", "data_type": "int64"}
+{"table_name":"cfcustmastd0", "column_name": "bo_sett_plan", "description": "Settlement plan for the BO", "data_type": "string"}
+{"table_name":"cfcustmastd0", "column_name": "bo_stmt_cyc_cd", "description": "Statement cycle code for the BO", "data_type": "string"}
+{"table_name":"cfcustmastd0", "column_name": "acct_security", "description": "Security associated with the account", "data_type": "int64"}
+{"table_name":"cfcustmastd0", "column_name": "id_key", "description": "Unique identifier key", "data_type": "string"}
+{"table_name":"cfcustmastd0", "column_name": "group_code", "description": "Code representing a group association", "data_type": "string"}
+{"table_name":"cfcustmastd0", "column_name": "cc_id", "description": "Identification for a credit card associated with the owner", "data_type": "int64"}
+{"table_name":"cfcustmastd0", "column_name": "cm_id", "description": "Unique identifier for a specific customer manager", "data_type": "string"}
+{"table_name":"cfcustmastd0", "column_name": "clos_rsn_cd", "description": "Reason code for closure", "data_type": "int64"}
+{"table_name":"cfcustmastd0", "column_name": "cds_approval", "description": "Approval status related to CDSL", "data_type": "string"}
+{"table_name":"cfcustmastd0", "column_name": "clos_init_by", "description": "Initial closure initiated by", "data_type": "int64"}
+{"table_name":"cfcustmastd0", "column_name": "req_clos_dt", "description": "Timestamp for the requested closure date", "data_type": "timestamp"}
+{"table_name":"cfcustmastd0", "column_name": "clos_appr_dt", "description": "Timestamp for the closure approval date", "data_type": "timestamp"}
+{"table_name":"cfcustmastd0", "column_name": "sub_type", "description": "Subtype associated with the owner", "data_type": "int64"}
+{"table_name":"cfcustmastd0", "column_name": "clos_appr_offcr", "description": "Officer approving the closure", "data_type": "string"}
+{"table_name":"cfcustmastd0", "column_name": "stck_exchg", "description": "Stock exchange associated", "data_type": "int64"}
+{"table_name":"cfcustmastd0", "column_name": "prchse_conf_wvd", "description": "Purchase confirmation waived status", "data_type": "string"}
+{"table_name":"cfcustmastd0", "column_name": "trading_id", "description": "ID associated with trading", "data_type": "string"}
+{"table_name":"cfcustmastd0", "column_name": "susp_flag", "description": "Flag indicating suspension status", "data_type": "string"}
+{"table_name":"cfcustmastd0", "column_name": "bo_susp_dt", "description": "Timestamp for the date of BO suspension", "data_type": "timestamp"}
+{"table_name":"cfcustmastd0", "column_name": "susp_rsn_cd", "description": "Reason code for suspension", "data_type": "int64"}
+{"table_name":"cfcustmastd0", "column_name": "susp_init_by", "description": "Suspension initiated by", "data_type": "int64"}
+{"table_name":"cfcustmastd0", "column_name": "bal_rem_trn", "description": "Balance remaining after transaction. should not be used for cutomer balance", "data_type": "string"}
+{"table_name":"cfcustmastd0", "column_name": "trn_bo_id", "description": "ID associated with a transaction and BO", "data_type": "string"}
+{"table_name":"cfcustmastd0", "column_name": "date_last_mdfcn", "description": "Timestamp for the date of the last modification", "data_type": "timestamp"}
+{"table_name":"cfcustmastd0", "column_name": "del_flag", "description": "Deletion flag", "data_type": "string"}
+{"table_name":"cfcustmastd0", "column_name": "bo_activation_date", "description": "Timestamp for BO activation date", "data_type": "timestamp"}
+{"table_name":"cfcustmastd0", "column_name": "bo_rgess_flag", "description": "RGESS flag for BO", "data_type": "char(1)"}
+{"table_name":"cfcustmastd0", "column_name": "bo_annual_rpt_flag", "description": "Flag for BO's annual report", "data_type": "int64"}
+{"table_name":"cfcustmastd0", "column_name": "year", "description": "Year associated with the data entry", "data_type": "int64"}
+{"table_name":"cfcustmastd0", "column_name": "month", "description": "Month associated with the data entry", "data_type": "int64"}
+{"table_name":"cfcustmastd0", "column_name": "load_date", "description": "Date of data loading", "data_type": "date"}
+{"table_name":"cfcustmastd0", "column_name": "batch_id", "description": "Unique identifier for a batch of data", "data_type": "int64"}
+{"table_name":"cfcustmastd0", "column_name": "start_date", "description": "Starting date associated with a record or entry", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "bank_id", "description": "Identifier for the bank", "data_type": "float64"}
+{"table_name":"pabrnchdtlp0", "column_name": "brnch_numb", "description": "Branch number", "data_type": "float64"}
+{"table_name":"pabrnchdtlp0", "column_name": "dp_type", "description": "Type of depository", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "dp_account_type", "description": "Type of depository account", "data_type": "float64"}
+{"table_name":"pabrnchdtlp0", "column_name": "sub_dp_flag", "description": "Flag indicating sub-depository", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "parent_dp", "description": "Parent depository", "data_type": "float64"}
+{"table_name":"pabrnchdtlp0", "column_name": "brnch_name", "description": "Branch name", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "second_name", "description": "Second name", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "third_name", "description": "Third name", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "brnch_addr_1", "description": "Branch address line 1", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "brnch_addr_2", "description": "Branch address line 2", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "brnch_addr_3", "description": "Branch address line 3", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "brnch_city", "description": "Branch city", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "brnch_state", "description": "Branch state", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "brnch_cntry", "description": "Branch country", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "brnch_zip", "description": "Branch zip code", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "brnch_phone_1", "description": "Branch phone number 1", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "brnch_phone_2", "description": "Branch phone number 2", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "brnch_fax", "description": "Branch fax number", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "brnch_email", "description": "Branch email", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "title", "description": "Title", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "suffix", "description": "Suffix", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "dp_regcon_name", "description": "Depository Registrar and Contact Name", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "dp_opraddr_1", "description": "Depository Operator address line 1", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "dp_opraddr_2", "description": "Depository Operator address line 2", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "dp_opraddr_3", "description": "Depository Operator address line 3", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "dp_opr_city", "description": "Depository Operator city", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "dp_opr_state", "description": "Depository Operator state", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "dp_opr_cntry", "description": "Depository Operator country", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "dp_opr_zip", "description": "Depository Operator zip code", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "dp_oprphone_1", "description": "Depository Operator phone number 1", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "dp_oprphone_2", "description": "Depository Operator phone number 2", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "dp_opr_fax", "description": "Depository Operator fax number", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "dp_opr_email", "description": "Depository Operator email", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "dp_oprcon_name", "description": "Depository Operator contact name", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "sebi_regd_number", "description": "SEBI Registered Number", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "sub_accounting_ind", "description": "Sub-accounting indicator", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "dp_status", "description": "Depository status", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "setup_date", "description": "Setup date", "data_type": "timestamp"}
+{"table_name":"pabrnchdtlp0", "column_name": "suspended_date", "description": "Suspended date", "data_type": "timestamp"}
+{"table_name":"pabrnchdtlp0", "column_name": "cds_numb_of_shares", "description": "CDSL Number of Shares", "data_type": "float64"}
+{"table_name":"pabrnchdtlp0", "column_name": "dp_net_worth", "description": "Depository Net Worth", "data_type": "float64"}
+{"table_name":"pabrnchdtlp0", "column_name": "dp_net_worth_date", "description": "Depository Net Worth Date", "data_type": "timestamp"}
+{"table_name":"pabrnchdtlp0", "column_name": "last_billing_cycle", "description": "Last billing cycle", "data_type": "timestamp"}
+{"table_name":"pabrnchdtlp0", "column_name": "next_billing_cycle", "description": "Next billing cycle", "data_type": "timestamp"}
+{"table_name":"pabrnchdtlp0", "column_name": "billing_frequency", "description": "Billing frequency", "data_type": "float64"}
+{"table_name":"pabrnchdtlp0", "column_name": "elec_confirmation", "description": "Electronic confirmation", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "on_us_rep_flag", "description": "On-us representation flag", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "brnch_eod_sts", "description": "Branch EOD status", "data_type": "float64"}
+{"table_name":"pabrnchdtlp0", "column_name": "brnch_week_days", "description": "Branch week days", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "can_do_ib_txn", "description": "Can do IB transaction", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "can_have_ib_txn", "description": "Can have IB transaction", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "brnch_eod_time", "description": "Branch EOD time", "data_type": "timestamp"}
+{"table_name":"pabrnchdtlp0", "column_name": "date_on_off", "description": "Date on/off", "data_type": "timestamp"}
+{"table_name":"pabrnchdtlp0", "column_name": "date_last_mdfcn", "description": "Date of last modification", "data_type": "timestamp"}
+{"table_name":"pabrnchdtlp0", "column_name": "base_gl_cash_ac", "description": "Base GL Cash Account", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "del_flag", "description": "Deletion flag", "data_type": "char(1)"}
+{"table_name":"pabrnchdtlp0", "column_name": "brnch_frd_aba", "description": "Branch fraud ABA", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "brnch_regn_numb", "description": "Branch registration number", "data_type": "float64"}
+{"table_name":"pabrnchdtlp0", "column_name": "brnch_onln_flag", "description": "Branch online flag", "data_type": "float64"}
+{"table_name":"pabrnchdtlp0", "column_name": "bic_code", "description": "BIC code", "data_type": "char(12)"}
+{"table_name":"pabrnchdtlp0", "column_name": "max_users", "description": "Maximum users", "data_type": "float64"}
+{"table_name":"pabrnchdtlp0", "column_name": "dp_expiry_date", "description": "Depository expiry date", "data_type": "timestamp"}
+{"table_name":"pabrnchdtlp0", "column_name": "service_dp", "description": "Service depository", "data_type": "float64"}
+{"table_name":"pabrnchdtlp0", "column_name": "dp_clos_init_date", "description": "Depository closure initiation date", "data_type": "timestamp"}
+{"table_name":"pabrnchdtlp0", "column_name": "dp_final_clos_date", "description": "Depository final closure date", "data_type": "timestamp"}
+{"table_name":"pabrnchdtlp0", "column_name": "dp_clos_init_by", "description": "Depository closure initiated by", "data_type": "float64"}
+{"table_name":"pabrnchdtlp0", "column_name": "dp_clos_rsncd", "description": "Depository closure reason code", "data_type": "float64"}
+{"table_name":"pabrnchdtlp0", "column_name": "dp_clos_remarks", "description": "Depository closure remarks", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "hldrpt_flg", "description": "Holder PT flag", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "dp_boff_sp_req_flg", "description": "Depository back-office special request flag", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "dp_boff_sp_req_date", "description": "Depository back-office special request date", "data_type": "timestamp"}
+{"table_name":"pabrnchdtlp0", "column_name": "dp_boff_sp_flg", "description": "Depository back-office special flag", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "dp_boff_sp_date", "description": "Depository back-office special date", "data_type": "timestamp"}
+{"table_name":"pabrnchdtlp0", "column_name": "dp_dnld_opt_req_flg", "description": "Depository download optional request flag", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "dp_dnld_opt_req_date", "description": "Depository download optional request date", "data_type": "timestamp"}
+{"table_name":"pabrnchdtlp0", "column_name": "dp_dnld_opt_flg", "description": "Depository download optional flag", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "dp_dnld_opt_date", "description": "Depository download optional date", "data_type": "timestamp"}
+{"table_name":"pabrnchdtlp0", "column_name": "upload_file_enc_flg", "description": "Upload file encryption flag", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "backoff_flag_remarks", "description": "Back-off flag remarks", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "dp_sign_dwnld_flg", "description": "Depository sign download flag", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "dp_sms_con_name", "description": "Depository SMS contact name", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "dp_sms_con_no", "description": "Depository SMS contact number", "data_type": "string"}
+{"table_name":"pabrnchdtlp0", "column_name": "dp_sms_comp_officer_flag", "description": "Depository SMS Compliance Officer flag", "data_type": "string"}
+{"table_name": "pabrnchdtlp0", "column_name": "easi_boack_rgnflg", "description": "EASI Back region flag", "data_type": "string"}
+{"table_name": "pabrnchdtlp0", "column_name": "easi_boack_days", "description": "EASI Back days", "data_type": "float64"}
+{"table_name": "pabrnchdtlp0", "column_name": "easi_boack_rgnflg_old", "description": "EASI Back region flag (old)", "data_type": "string"}
+{"table_name": "pabrnchdtlp0", "column_name": "easi_boack_days_old", "description": "EASI Back days (old)", "data_type": "string"}
+{"table_name": "pabrnchdtlp0", "column_name": "amfi_reg_no", "description": "AMFI Registration Number", "data_type": "string"}
+{"table_name": "pabrnchdtlp0", "column_name": "nism_reg_no", "description": "NISM Registration Number", "data_type": "string"}
+{"table_name": "pabrnchdtlp0", "column_name": "nism_reg_date", "description": "NISM Registration Date", "data_type": "timestamp"}
+{"table_name": "pabrnchdtlp0", "column_name": "nism_exp_date", "description": "NISM Expiry Date", "data_type": "timestamp"}
+{"table_name": "pabrnchdtlp0", "column_name": "amfi_reg_date", "description": "AMFI Registration Date", "data_type": "timestamp"}
+{"table_name": "pabrnchdtlp0", "column_name": "amfi_exp_date", "description": "AMFI Expiry Date", "data_type": "timestamp"}
+{"table_name": "pabrnchdtlp0", "column_name": "sign_dwnld_mode", "description": "Sign download mode", "data_type": "string"}
+{"table_name": "pabrnchdtlp0", "column_name": "dp_maincom_email", "description": "Depository main contact email", "data_type": "string"}
+{"table_name": "pabrnchdtlp0", "column_name": "dp_altcom_off_name", "description": "Depository alternate contact officer name", "data_type": "string"}
+{"table_name": "pabrnchdtlp0", "column_name": "dp_altcom_mobno", "description": "Depository alternate contact mobile number", "data_type": "string"}
+{"table_name": "pabrnchdtlp0", "column_name": "dp_altcom_email", "description": "Depository alternate contact email", "data_type": "string"}
+{"table_name": "pabrnchdtlp0", "column_name": "switchover_flag", "description": "Switchover flag", "data_type": "string"}
+{"table_name": "pabrnchdtlp0", "column_name": "dp_avps", "description": "Depository AVPS", "data_type": "float64"}
+{"table_name": "pabrnchdtlp0", "column_name": "dp_avps_status", "description": "Depository AVPS status", "data_type": "string"}
+{"table_name": "pabrnchdtlp0", "column_name": "dp_adt_prov_flg", "description": "Depository ADT provision flag", "data_type": "string"}
+{"table_name": "pabrnchdtlp0", "column_name": "dp_avps_sec", "description": "Depository AVPS Secondary", "data_type": "float64"}
+{"table_name": "pabrnchdtlp0", "column_name": "dp_avps_com", "description": "Depository AVPS Communication", "data_type": "float64"}
+{"table_name": "pabrnchdtlp0", "column_name": "dp_log_status", "description": "Depository log status", "data_type": "String"}
+{"table_name": "pabrnchdtlp0", "column_name": "dp_msg_verify_date", "description": "Depository message verify date", "data_type": "timestamp"}
+{"table_name": "pabrnchdtlp0", "column_name": "restrain_type", "description": "Restrain type", "data_type": "string"}
+{"table_name": "pabrnchdtlp0", "column_name": "cmn_dp_flag", "description": "Common depository flag", "data_type": "string"}
+{"table_name": "pabrnchdtlp0", "column_name": "lett_genr_date", "description": "Letter generation date", "data_type": "timestamp"}
+{"table_name": "pabrnchdtlp0", "column_name": "dp_letter_gen_count", "description": "Depository letter generation count", "data_type": "float64"}
+{"table_name": "pabrnchdtlp0", "column_name": "cdsl_mngd_dp", "description": "CDSL Managed Depository", "data_type": "float64"}
+{"table_name": "pabrnchdtlp0", "column_name": "back_off_ref_no", "description": "Back-off reference number", "data_type": "string"}
+{"table_name": "pabrnchdtlp0", "column_name": "cmn_upld_optnl_tag", "description": "Common upload optional tag", "data_type": "string"}
+{"table_name": "pabrnchdtlp0", "column_name": "back_off_ven_name", "description": "Back-off vendor name", "data_type": "string"}
+{"table_name": "pabrnchdtlp0", "column_name": "back_off_con_name", "description": "Back-off contact name", "data_type": "string"}
+{"table_name": "pabrnchdtlp0", "column_name": "back_off_email", "description": "Back-off email", "data_type": "string"}
+{"table_name": "pabrnchdtlp0", "column_name": "back_off_con_no", "description": "Back-off contact number", "data_type": "string"}
+{"table_name": "pabrnchdtlp0", "column_name": "bill_addr_1", "description": "Billing address line 1", "data_type": "string"}
+{"table_name": "pabrnchdtlp0", "column_name": "bill_addr_2", "description": "Billing address line 2", "data_type": "string"}
+{"table_name": "pabrnchdtlp0", "column_name": "bill_addr_3", "description": "Billing address line 3", "data_type": "string"}
+{"table_name": "pabrnchdtlp0", "column_name": "bill_city", "description": "Billing city", "data_type": "string"}
+{"table_name": "pabrnchdtlp0", "column_name": "bill_state", "description": "Billing state", "data_type": "string"}
+{"table_name": "pabrnchdtlp0", "column_name": "bill_cntry", "description": "Billing country", "data_type": "string"}
+{"table_name": "pabrnchdtlp0", "column_name": "bill_zip", "description": "Billing zip code", "data_type": "string"}
+{"table_name": "pabrnchdtlp0", "column_name": "gst_code", "description": "GST code", "data_type": "string"}
+{"table_name": "pabrnchdtlp0", "column_name": "bill_addr_flag", "description": "Billing address flag", "data_type": "string"}
+{"table_name": "pabrnchdtlp0", "column_name": "restraint64_flag", "description": "Restraint64 flag", "data_type": "string"}
+{"table_name": "pabrnchdtlp0", "column_name": "reg_addr_1", "description": "Registered address line 1", "data_type": "string"}
+{"table_name": "pabrnchdtlp0", "column_name": "reg_addr_2", "description": "Registered address line 2", "data_type": "string"}
+{"table_name": "pabrnchdtlp0", "column_name": "reg_addr_3", "description": "Registered address line 3", "data_type": "string"}
+{"table_name": "pabrnchdtlp0", "column_name": "reg_state", "description": "Registered state", "data_type": "string"}
+{"table_name": "pabrnchdtlp0", "column_name": "reg_city", "description": "Registered city", "data_type": "string"}
+{"table_name": "pabrnchdtlp0", "column_name": "reg_cntry", "description": "Registered country", "data_type": "string"}
+{"table_name": "pabrnchdtlp0", "column_name": "reg_zip", "description": "Registered zip code", "data_type": "string"}
+{"table_name": "pabrnchdtlp0", "column_name": "reg_addr_flag", "description": "Registered address flag", "data_type": "string"}
+{"table_name": "pabrnchdtlp0", "column_name": "state_code", "description": "State code", "data_type": "string"}
+{"table_name": "pabrnchdtlp0", "column_name": "otu_flag", "description": "OTU flag", "data_type": "float64"}
+{"table_name": "pabrnchdtlp0", "column_name": "instance_num", "description": "Instance number", "data_type": "float64"}
+{"table_name": "pabrnchdtlp0", "column_name": "load_date", "description": "Date of data loading", "data_type": "date"}
+{"table_name": "pabrnchdtlp0", "column_name": "batch_id", "description": "Unique identifier for a batch of data", "data_type": "int64"}
+{"table_name":"paisinratemstrp0", "column_name": "isin_alpha_code", "description": "unique ISIN code", "data_type": "String", "usage":"identify unique equity securities/shares being traded"}
+{"table_name":"paisinratemstrp0", "column_name": "control_date", "description": "Date for control", "data_type": "datetime"}
+{"table_name":"paisinratemstrp0", "column_name": "price", "description": "Price value", "data_type": "float64","usage":"price of securities/shares being traded"}
+{"table_name":"paisinratemstrp0", "column_name": "actual_date", "description": "Actual transaction date", "data_type": "datetime","usage":"identify the date on which transaction is performed"}
+{"table_name":"paisinratemstrp0", "column_name": "exchange", "description": "Exchange information", "data_type": "string","usage":"identify the exchange on which transaction is performed","example":"BSE, NSE"}
+{"table_name":"paisinratemstrp0", "column_name": "load_date", "description": "Date of data loading in the table", "data_type": "datetime"}
+{"table_name":"paisinratemstrp0", "column_name": "batch_id", "description": "Unique identifier for a batch of data", "data_type": "INT64"}
+{"table_name":"dptmhstendbld0", "column_name": "dp_hst_freeze", "description": "Depository history freeze amount", "data_type": "float64"}
+{"table_name":"dptmhstendbld0", "column_name": "dp_hst_lockin", "description": "Depository history lock-in amount", "data_type": "float64"}
+{"table_name":"dptmhstendbld0", "column_name": "dp_hst_safe_keep", "description": "Depository history safe-keep amount", "data_type": "float64"}
+{"table_name":"dptmhstendbld0", "column_name": "dp_hst_elimination", "description": "Depository history elimination amount", "data_type": "float64"}
+{"table_name":"dptmhstendbld0", "column_name": "dp_hst_earmark", "description": "Depository history earmark amount", "data_type": "float64"}
+{"table_name":"dptmhstendbld0", "column_name": "del_flag", "description": "Deletion flag", "data_type": "string"}
+{"table_name":"dptmhstendbld0", "column_name": "dp_hst_lst_mdfsn_date", "description": "Depository history last modification date", "data_type": "datetime"}
+{"table_name":"dptmhstendbld0", "column_name": "dp_hst_remlock_qty", "description": "Depository history remaining lock quantity", "data_type": "float64"}
+{"table_name":"dptmhstendbld0", "column_name": "dp_hst_virsafe_keep", "description": "Depository history virtual safe-keep amount", "data_type": "float64"}
+{"table_name":"dptmhstendbld0", "column_name": "dp_hst_free_bal", "description": "Depository history free balance", "data_type": "float64"}
+{"table_name":"dptmhstendbld0", "column_name": "dp_hst_repledge_bal", "description": "Depository history repledge balance", "data_type": "float64"}
+{"table_name":"dptmhstendbld0", "column_name": "dp_hst_bk_id", "description": "Depository history bank ID", "data_type": "int64"}
+{"table_name":"dptmhstendbld0", "column_name": "dp_hst_acct_nbr", "description": "Depository history account number", "data_type": "int64"}
+{"table_name":"dptmhstendbld0", "column_name": "dp_hst_ccy_cde", "description": "Depository history currency code", "data_type": "string"}
+{"table_name":"dptmhstendbld0", "column_name": "dp_hst_post_date", "description": "Depository history posting date", "data_type": "datetime"}
+{"table_name":"dptmhstendbld0", "column_name": "dp_hst_br_id", "description": "Depository history branch ID", "data_type": "int64"}
+{"table_name":"dptmhstendbld0", "column_name": "dp_hst_cycle_flg", "description": "Depository history cycle flag", "data_type": "int64"}
+{"table_name":"dptmhstendbld0", "column_name": "dp_hst_cycle_dte", "description": "Depository history cycle date", "data_type": "timestamp"}
+{"table_name":"dptmhstendbld0", "column_name": "dp_hst_curr_bal", "description": "Depository history current balance . can be used to get balance of customer", "data_type": "float64"}
+{"table_name":"dptmhstendbld0", "column_name": "dp_hst_demat_verf", "description": "Depository history dematerialization verification", "data_type": "float64"}
+{"table_name":"dptmhstendbld0", "column_name": "dp_hst_demat_conf", "description": "Depository history dematerialization confirmation", "data_type": "float64"}
+{"table_name":"dptmhstendbld0", "column_name": "dp_hst_remat_conf", "description": "Depository history rematerialization confirmation", "data_type": "float64"}
+{"table_name":"dptmhstendbld0", "column_name": "dp_hst_pledge", "description": "Depository history pledge amount", "data_type": "float64"}
+{"table_name":"dptmhstendbld0", "column_name": "dp_hst_lend", "description": "Depository history lend amount", "data_type": "float64"}
+{"table_name":"dptmhstendbld0", "column_name": "dp_hst_avl_lend", "description": "Depository history available lend amount", "data_type": "float64"}
+{"table_name":"dptmhstendbld0", "column_name": "dp_hst_borrow", "description": "Depository history borrow amount", "data_type": "float64"}
+{"table_name":"dptmhstendbld0", "column_name": "load_date", "description": "Date of data loading", "data_type": "date"}
+{"table_name":"dptmhstendbld0", "column_name": "batch_id", "description": "Unique identifier for a batch of data", "data_type": "int64"}
+{"table_name":"dptmhstfind0", "column_name": "dp_hst_bk_id", "description": "Depository history bank ID","data_type": "int64"}
+{"table_name":"dptmhstfind0", "column_name": "dp_hst_acct_nbr", "description": "Depository history account number","data_type": "int64"}
+{"table_name":"dptmhstfind0", "column_name": "dp_hst_ccy_cde", "description": "Depository history currency code","data_type": "string"}
+{"table_name":"dptmhstfind0", "column_name": "dp_hst_sys_date", "description": "Depository history system date","data_type": "timestamp"}
+{"table_name":"dptmhstfind0", "column_name": "dp_hst_trace_nbr", "description": "Depository history trace number","data_type": "string"}
+{"table_name":"dptmhstfind0", "column_name": "dp_hst_ref_nbr", "description": "Depository history reference number","data_type": "string"}
+{"table_name":"dptmhstfind0", "column_name": "dp_hst_br_id", "description": "Depository history branch ID","data_type": "int64"}
+{"table_name":"dptmhstfind0", "column_name": "dp_hst_tran_type", "description": "Depository history transaction type","data_type": "string"}
+{"table_name":"dptmhstfind0", "column_name": "dp_hst_tran_code", "description": "Depository history transaction code","data_type": "int64"}
+{"table_name":"dptmhstfind0", "column_name": "dp_hst_bal_type", "description": "Depository history balance type","data_type": "int64"}
+{"table_name":"dptmhstfind0", "column_name": "dp_hst_post_date", "description": "Depository history posting date","data_type": "timestamp"}
+{"table_name":"dptmhstfind0", "column_name": "dp_hst_eff_date", "description": "transaction_date field should be used to filter transactions based on time period. timestamp field convert it to date field type for calculations ","data_type": "timestamp"}
+{"table_name":"dptmhstfind0", "column_name": "dp_hst_eft_scd", "description": "Depository history EFT schedule","data_type": "int64"}
+{"table_name":"dptmhstfind0", "column_name": "dp_hst_tran_qty", "description": "Depository history transaction quantity", "data_type": "float64"}
+{"table_name":"dptmhstfind0", "column_name": "dp_hst_history_desc", "description": "Depository history description" ,"data_type": "string"}
+{"table_name":"dptmhstfind0", "column_name": "dp_hst_drop_ind", "description": "Depository history drop indicator","data_type": "int64"}
+{"table_name":"dptmhstfind0", "column_name": "dp_hst_cycle_flg", "description": "Depository history cycle flag","data_type": "int64"}
+{"table_name":"dptmhstfind0", "column_name": "dp_hst_cycle_dte", "description": "Depository history cycle date","data_type": "timestamp"}
+{"table_name":"dptmhstfind0", "column_name": "dp_hst_source_br", "description": "Depository history source branch","data_type": "int64"}
+{"table_name":"dptmhstfind0", "column_name": "dp_hst_oper_id", "description": "Depository history operator ID","data_type": "string"}
+{"table_name":"dptmhstfind0", "column_name": "dp_hst_txn_seq_no", "description": "Depository history transaction sequence number","data_type": "int64"}
+{"table_name":"dptmhstfind0", "column_name": "del_flag", "description": "depository Deletion flag", "data_type": "string"}
+{"table_name":"dptmhstfind0", "column_name": "dp_hst_lst_mdfsn_date", "description": "Depository history last modification date","data_type": "datetime"}
+{"table_name":"dptmhstfind0", "column_name": "dp_hst_bal_after_txn", "description": "Depository history balance after transaction","data_type": "float64"}
+{"table_name":"dptmhstfind0", "column_name": "dp_hst_settle_id", "description": "Depository history settlement ID","data_type": "string"}
+{"table_name":"dptmhstfind0", "column_name": "dp_hst_ctr_settle_id", "description": "Depository history counter settlement ID","data_type": "string"}
+{"table_name":"dptmhstfind0", "column_name": "dp_hst_cr_process_flg", "description": "Depository history credit process flag","data_type": "string"}
+{"table_name":"dptmhstfind0", "column_name": "dp_hst_cr_seq_numb", "description": "Depository history credit sequence number","data_type":  "int64"}
+{"table_name":"dptmhstfind0", "column_name": "load_date", "description": "Date of data loading","data_type":  "datetime"}
+{"table_name":"dptmhstfind0", "column_name": "batch_id", "description": "Unique identifier for a batch of data","data_type":  "int64"}
+{"table_name":"paissuermstrp0", "column_name": "bank_id", "description": "Identifier for the bank", "data_type": "int64"}
+{"table_name":"paissuermstrp0", "column_name": "issuer_id", "description": "Identifier for the issuer", "data_type": "int64"}
+{"table_name":"paissuermstrp0", "column_name": "issuer_name", "description": "Name of the issuer", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "issuer_addr_1", "description": "Issuer address line 1", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "issuer_addr_2", "description": "Issuer address line 2", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "issuer_addr_3", "description": "Issuer address line 3", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "issuer_city", "description": "Issuer city", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "issuer_state", "description": "Issuer state", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "issuer_cntry", "description": "Issuer country", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "issuer_zip", "description": "Issuer zip code", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "issuer_phone_1", "description": "Issuer phone number 1", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "issuer_phone_2", "description": "Issuer phone number 2", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "issuer_fax", "description": "Issuer fax number", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "issuer_email", "description": "Issuer email", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "contact_name", "description": "Contact name", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "contact_designation", "description": "Contact designation", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "contact_addr_1", "description": "Contact address line 1", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "contact_addr_2", "description": "Contact address line 2", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "contact_addr_3", "description": "Contact address line 3", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "contact_city", "description": "Contact city", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "contact_state", "description": "Contact state", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "contact_cntry", "description": "Contact country", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "contact_zip", "description": "Contact zip code", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "contact_phone_1", "description": "Contact phone number 1", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "contact_phone_2", "description": "Contact phone number 2", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "contact_fax", "description": "Contact fax number", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "contact_email", "description": "Contact email", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "auth_capital", "description": "Authorized capital", "data_type": "int64"}
+{"table_name":"paissuermstrp0", "column_name": "prev_auth_capital", "description": "Previous authorized capital", "data_type": "int64"}
+{"table_name":"paissuermstrp0", "column_name": "issued_capital", "description": "Issued capital", "data_type": "int64"}
+{"table_name":"paissuermstrp0", "column_name": "year_end", "description": "Year end date", "data_type": "timestamp"}
+{"table_name":"paissuermstrp0", "column_name": "agm_date", "description": "AGM (Annual General Meeting) date", "data_type": "timestamp"}
+{"table_name":"paissuermstrp0", "column_name": "last_agm_date", "description": "Last AGM (Annual General Meeting) date", "data_type": "timestamp"}
+{"table_name":"paissuermstrp0", "column_name": "del_flag", "description": "issuer Deletion flag", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "date_last_mdfcn", "description": "Date of last modification", "data_type": "timestamp"}
+{"table_name":"paissuermstrp0", "column_name": "issuer_status", "description": "Issuer status", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "issuer_setup_date", "description": "Issuer setup date", "data_type": "timestamp"}
+{"table_name":"paissuermstrp0", "column_name": "mf_amc_code", "description": "Mutual Fund AMC (Asset Management Company) code", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "cin", "description": "Corporate Identification Number (CIN)", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "pan", "description": "PAN (Permanent Account Number)", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "issuer_type", "description": "Type of issuer", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "up_txn_source", "description": "Transaction source", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "back_off_ref_no", "description": "Back-off reference number", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "gst_code", "description": "GST code", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "cin_not_reg_flg", "description": "CIN not registered flag", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "cin_remarks", "description": "CIN remarks", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "gst_not_reg_flg", "description": "GST not registered flag", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "gst_remarks", "description": "GST remarks", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "easi_login", "description": "EASI (Electronic Access to Securities Information) login", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "billing_addr_1", "description": "Billing address line 1", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "billing_addr_2", "description": "Billing address line 2", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "billing_addr_3", "description": "Billing address line 3", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "billing_city", "description": "Billing city", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "billing_state", "description": "Billing state", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "billing_cntry", "description": "Billing country", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "billing_zip", "description": "Billing zip code", "data_type": "string"}
+{"table_name":"paissuermstrp0", "column_name": "load_date", "description": "Date of data loading", "data_type": "date"}
+{"table_name":"paissuermstrp0", "column_name": "batch_id", "description": "Unique identifier for a batch of data", "data_type": "int64"}
+{"table_name":"paissuermstrp0", "column_name": "start_date", "description": "Start date", "data_type": "string"}
+{"table_name":"pabankccyp0", "column_name":"bank_id","description":"Identifier for the bank","data_type":"int64"}
+{"table_name":"pabankccyp0", "column_name":"ccy_numb_code","description":"Currency number code","data_type":"int64"}
+{"table_name":"pabankccyp0", "column_name":"currency_or_isin","description":"Indicates if it is a currency or ISIN","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"ccy_alpha_code","description":"Alpha code for currency","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"ccy_short_name","description":"Short name for currency","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"ccy_desc","description":"description of the currency","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"issuer_id","description":"Identifier for the issuer","data_type":"int64"}
+{"table_name":"pabankccyp0", "column_name":"rta_id","description":"Identifier for the RTA","data_type":"int64"}
+{"table_name":"pabankccyp0", "column_name":"security_type","description":"Type of security","data_type":"int64"}
+{"table_name":"pabankccyp0", "column_name":"market_type","description":"Type of market","data_type":"int64"}
+{"table_name":"pabankccyp0", "column_name":"par_value","description":"Par value of the security","data_type":"float64"}
+{"table_name":"pabankccyp0", "column_name":"paid_up_value","description":"Paid-up value of the security","data_type":"float64"}
+{"table_name":"pabankccyp0", "column_name":"market_lot","description":"Lot size in the market","data_type":"int64"}
+{"table_name":"pabankccyp0", "column_name":"cfi_code","description":"Code based on Classification of Financial Instruments (CFI)","data_type":"int64"}
+{"table_name":"pabankccyp0", "column_name":"isin_status","description":"Status of the ISIN","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"isin_suspended_flag","description":"Flag indicating if ISIN is suspended","data_type":"int64"}
+{"table_name":"pabankccyp0", "column_name":"hold_demat_flag","description":"Flag for holding in demat","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"hold_remat_flag","description":"Flag for holding in remat","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"isin_complete","description":"Completeness status of ISIN","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"ongoing_conv","description":"Ongoing conversion status","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"conversion_date","description":"Date of conversion","data_type":"timestamp"}
+{"table_name":"pabankccyp0", "column_name":"isin_issue_date","description":"Date of ISIN issuance","data_type":"timestamp"}
+{"table_name":"pabankccyp0", "column_name":"setup_date","description":"Setup date","data_type":"timestamp"}
+{"table_name":"pabankccyp0", "column_name":"expiry_date","description":"Expiry date","data_type":"timestamp"}
+{"table_name":"pabankccyp0", "column_name":"book_closure_date","description":"Book closure date","data_type":"timestamp"}
+{"table_name":"pabankccyp0", "column_name":"record_date","description":"Record date","data_type":"timestamp"}
+{"table_name":"pabankccyp0", "column_name":"isin_close_price","description":"Closing price of ISIN","data_type":"decimal(22,9)"}
+{"table_name":"pabankccyp0", "column_name":"isin_close_date","description":"Closing date of ISIN","data_type":"timestamp"}
+{"table_name":"pabankccyp0", "column_name":"redemption_price","description":"Redemption price of ISIN","data_type":"float64"}
+{"table_name":"pabankccyp0", "column_name":"redemption_date","description":"Redemption date of ISIN","data_type":"timestamp"}
+{"table_name":"pabankccyp0", "column_name":"next_dividend_date","description":"Next dividend date","data_type":"timestamp"}
+{"table_name":"pabankccyp0", "column_name":"money_due_date","description":"Due date for money","data_type":"timestamp"}
+{"table_name":"pabankccyp0", "column_name":"rta_ascontrol","description":"RTA as control","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"rta_asdem_peverify","description":"RTA as demat PE verify","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"rta_asdem_peconf","description":"RTA as demat PE confirm","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"rta_asrem_peconf","description":"RTA as remat PE confirm","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"rta_asfrozen","description":"RTA as frozen","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"rta_licontrol","description":"RTA li control","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"rta_lidem_peverify","description":"RTA li demat PE verify","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"rta_lidem_peconf","description":"RTA li demat PE confirm","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"rta_lirem_peconf","description":"RTA li remat PE confirm","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"rta_lifrozen","description":"RTA li frozen","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"rta_isin_unpostable","description":"RTA ISIN unpostable","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"distinct_range_exist","description":"Flag indicating existence of distinct range","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"remarks","description":"Remarks","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"del_flag","description":"Deletion flag","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"date_last_mdfcn","description":"Timestamp for the date of last modification","data_type":"timestamp"}
+{"table_name":"pabankccyp0", "column_name":"ccy_rate_tlrnc","description":"Currency rate tolerance","data_type":"float64"}
+{"table_name":"pabankccyp0", "column_name":"ccy_dec_code","description":"Currency decimal code","data_type":"int64"}
+{"table_name":"pabankccyp0", "column_name":"ccy_pl_acno","description":"Currency placeholder account number","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"ccy_prity_acno","description":"Currency priority account number","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"ccy_unpost_acno","description":"Currency unpostable account number","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"ccy_usble_denom","description":"Usable denomination of currency","data_type":"float64"}
+{"table_name":"pabankccyp0", "column_name":"ccy_name","description":"Name of currency","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"ccy_dec_name","description":"Decimal name of currency","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"ccy_symbol","description":"Symbol of currency","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"base_rate","description":"Base rate","data_type":"float64"}
+{"table_name":"pabankccyp0", "column_name":"buy_percent_variance","description":"Buy percentage variance","data_type":"float64"}
+{"table_name":"pabankccyp0", "column_name":"buy_absolute_variance","description":"Buy absolute variance","data_type":"float64"}
+{"table_name":"pabankccyp0", "column_name":"sell_percent_variance","description":"Sell percentage variance","data_type":"float64"}
+{"table_name":"pabankccyp0", "column_name":"sell_absolute_variance","description":"Sell absolute variance","data_type":"float64"}
+{"table_name":"pabankccyp0", "column_name":"display_preference_flag","description":"Display preference flag","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"buy_rate","description":"Buy rate","data_type":"float64"}
+{"table_name":"pabankccyp0", "column_name":"sell_rate","description":"Sell rate","data_type":"float64"}
+{"table_name":"pabankccyp0", "column_name":"ccy_interest_basis","description":"Currency interest basis","data_type":"int64"}
+{"table_name":"pabankccyp0", "column_name":"ccy_week_days","description":"Currency week days","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"ccy_spot_day","description":"Currency spot day","data_type":"int64"}
+{"table_name":"pabankccyp0", "column_name":"ccy_posn_acno","description":"Currency position account number","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"pp_isin","description":"PP ISIN","data_type":"int64"}
+{"table_name":"pabankccyp0", "column_name":"dividend_pay_rate","description":"Dividend pay rate","data_type":"float64"}
+{"table_name":"pabankccyp0", "column_name":"last_man_mdfcn","description":"Timestamp for the last manual modification","data_type":"timestamp"}
+{"table_name":"pabankccyp0", "column_name":"auth_capital","description":"Authorized capital","data_type":"float64"}
+{"table_name":"pabankccyp0", "column_name":"issued_capital","description":"Issued capital","data_type":"float64"}
+{"table_name":"pabankccyp0", "column_name":"listed_capital","description":"Listed capital","data_type":"float64"}
+{"table_name":"pabankccyp0", "column_name":"ipo_ca_phy_updation","description":"IPO CA physical updation","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"capital_change_remarks","description":"Remarks for capital change","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"new_isin_status","description":"New ISIN status","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"new_status_eff_date","description":"Effective date for new status","data_type":"timestamp"}
+{"table_name":"pabankccyp0", "column_name":"new_isin_suspended_flag","description":"Flag for new suspended ISIN","data_type":"int64"}
+{"table_name":"pabankccyp0", "column_name":"max_qty_allowed","description":"Maximum quantity allowed","data_type":"float64"}
+{"table_name":"pabankccyp0", "column_name":"isin_close_price_dec","description":"ISIN close price decimal","data_type":"int64"}
+{"table_name":"pabankccyp0", "column_name":"mf_amc_code","description":"Mutual fund AMC code","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"mf_lockin_flag","description":"Mutual fund lock-in flag","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"mf_lockin_code","description":"Mutual fund lock-in code","data_type":"int64"}
+{"table_name":"pabankccyp0", "column_name":"mf_lockin_no_days","description":"Number of days for mutual fund lock-in","data_type":"int64"}
+{"table_name":"pabankccyp0", "column_name":"mf_lockin_no_months","description":"Number of months for mutual fund lock-in","data_type":"int64"}
+{"table_name":"pabankccyp0", "column_name":"mf_lockin_no_years","description":"Number of years for mutual fund lock-in","data_type":"int64"}
+{"table_name":"pabankccyp0", "column_name":"isin_aca_flg","description":"ISIN ACA flag","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"isin_exchange_id","description":"Exchange ID for ISIN","data_type":"int64"}
+{"table_name":"pabankccyp0", "column_name":"isin_commodity_flg","description":"ISIN commodity flag","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"isin_excg_mkt_type","description":"ISIN exchange market type","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"rgess_flg","description":"RGESS flag","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"rgess_incl_excl_dt","description":"RGESS inclusion/exclusion date","data_type":"timestamp"}
+{"table_name":"pabankccyp0", "column_name":"rgess_price","description":"RGESS price","data_type":"float64"}
+{"table_name":"pabankccyp0", "column_name":"ccy_perm_code","description":"Currency permission code","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"interest_rate","description":"interest rate","data_type":"float64"}
+{"table_name":"pabankccyp0", "column_name":"interest_type","description":"Type of interest","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"interest_frequency","description":"Frequency of interest","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"cfi_char_code","description":"CFI character code","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"liqdn_status","description":"Liquidity status","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"traceable_flag","description":"Traceable flag","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"old_isin","description":"Old ISIN","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"new_isin","description":"New ISIN","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"call_put_flag","description":"Call/Put flag","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"und_inst_name","description":"Underlying instrument name","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"ho_lei","description":"Header Organization Legal Entity Identifier","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"ho_name","description":"Header Organization Name","data_type":"string"}
+{"table_name":"pabankccyp0", "column_name":"load_date","description":"Date of data loading","data_type":"date"}
+{"table_name":"pabankccyp0", "column_name":"batch_id","description":"Unique identifier for a batch of data","data_type":"int64"}
+{"table_name":"pabankccyp0", "column_name":"start_date","description":"Starting date associated with a record or entry","data_type":"string"}
+{"table_name":"cfcustdtlsd0", "column_name":"bank_id","description":"Identifier for the bank","data_type":"int64"}
+{"table_name":"cfcustdtlsd0", "column_name":"cid_numb","description":"Unique identification number for the customer","data_type":"int64"}
+{"table_name":"cfcustdtlsd0", "column_name":"cust_prof_code","description":"Customer profile code","data_type":"string", "usage":"distinguish customer based on profile value"}
+{"table_name":"cfcustdtlsd0", "column_name":"cust_life_style","description":"Customer's lifestyle code","data_type":"string", "usage":"distinguish customer based on lifestyle value" }
+{"table_name":"cfcustdtlsd0", "column_name":"cust_geo_code","description":"Customer's geographical code","data_type":"string", "usage":"distinguish customer based on geographical value" }
+{"table_name":"cfcustdtlsd0", "column_name":"cust_edctn_code","description":"Customer's education code","data_type":"string", "usage":"distinguish customer based on education value like graduate , diploma, 10th ,12th" }
+{"table_name":"cfcustdtlsd0", "column_name":"cust_incom_code","description":"Customer's income code","data_type":"int64", "usage":"distinguish customer based on income slabs"}
+{"table_name":"cfcustdtlsd0", "column_name":"cust_staf_reltv","description":"Customer's staff relationship indicator","data_type":"char(1)"}
+{"table_name":"cfcustdtlsd0", "column_name":"cust_staf_code","description":"Customer's staff code","data_type":"string"}
+{"table_name":"cfcustdtlsd0", "column_name":"cust_dt_matr","description":"Timestamp for customer's date of maturity","data_type":"timestamp"}
+{"table_name":"cfcustdtlsd0", "column_name":"cust_dummy1","description":"Dummy field 1 for customer","data_type":"string"}
+{"table_name":"cfcustdtlsd0", "column_name":"cust_dummy2","description":"Dummy field 2 for customer","data_type":"string"}
+{"table_name":"cfcustdtlsd0", "column_name":"cust_dummy3","description":"Dummy field 3 for customer","data_type":"int64"}
+{"table_name":"cfcustdtlsd0", "column_name":"cust_dummy4","description":"Dummy field 4 for customer","data_type":"int64"}
+{"table_name":"cfcustdtlsd0", "column_name":"cust_dummy5","description":"Dummy field 5 for customer","data_type":"int64"}
+{"table_name":"cfcustdtlsd0", "column_name":"rbi_ref_no","description":"Reference number provided by RBI","data_type":"string"}
+{"table_name":"cfcustdtlsd0", "column_name":"rbi_appr_date","description":"Timestamp for RBI approval date","data_type":"timestamp"}
+{"table_name":"cfcustdtlsd0", "column_name":"sebi_reg_no","description":"SEBI registration number","data_type":"string"}
+{"table_name":"cfcustdtlsd0", "column_name":"benf_tx_deduc_sts","description":"Beneficiary tax deduction status","data_type":"int64"}
+{"table_name":"cfcustdtlsd0", "column_name":"smrt_crd_reqd","description":"Smart card requirement indicator","data_type":"string"}
+{"table_name":"cfcustdtlsd0", "column_name":"smrt_crd_numb","description":"Smart card number","data_type":"string"}
+{"table_name":"cfcustdtlsd0", "column_name":"smrt_crd_pin","description":"Smart card PIN","data_type":"int64"}
+{"table_name":"cfcustdtlsd0", "column_name":"elec_dividend","description":"Electronic dividend indicator","data_type":"string"}
+{"table_name":"cfcustdtlsd0", "column_name":"elec_conf","description":"Electronic confirmation indicator","data_type":"string"}
+{"table_name":"cfcustdtlsd0", "column_name":"divnd_ccy","description":"Currency for dividends","data_type":"int64"}
+{"table_name":"cfcustdtlsd0", "column_name":"benf_bank_code","description":"Beneficiary bank code","data_type":"string"}
+{"table_name":"cfcustdtlsd0", "column_name":"benf_brnch_numb","description":"Beneficiary branch number","data_type":"string"}
+{"table_name":"cfcustdtlsd0", "column_name":"benf_bank_acno","description":"Beneficiary bank account number","data_type":"string"}
+{"table_name":"cfcustdtlsd0", "column_name":"benf_bank_ccy","description":"Beneficiary bank currency","data_type":"int64"}
+{"table_name":"cfcustdtlsd0", "column_name":"divnd_brnch_numb","description":"Dividend branch number","data_type":"string"}
+{"table_name":"cfcustdtlsd0", "column_name":"divnd_bank_code","description":"Dividend bank code","data_type":"string"}
+{"table_name":"cfcustdtlsd0", "column_name":"divnd_acct_numb","description":"Dividend account number","data_type":"string"}
+{"table_name":"cfcustdtlsd0", "column_name":"divnd_bank_ccy","description":"Dividend bank currency","data_type":"int64"}
+{"table_name":"cfcustdtlsd0", "column_name":"del_flag","description":"Deletion flag","data_type":"string"}
+{"table_name":"cfcustdtlsd0", "column_name":"date_last_mdfcn","description":"Timestamp for the date of last modification","data_type":"timestamp"}
+{"table_name":"cfcustdtlsd0", "column_name":"benf_bank_actype","description":"Beneficiary bank account type","data_type":"int64"}
+{"table_name":"cfcustdtlsd0", "column_name":"divnd_bank_actype","description":"Dividend bank account type","data_type":"int64"}
+{"table_name":"cfcustdtlsd0", "column_name":"custodian_pms_email","description":"Email address for custodian PMS","data_type":"string"}
+{"table_name":"cfcustdtlsd0", "column_name":"income_verfn_flg","description":"Income verification flag","data_type":"int64"}
+{"table_name":"cfcustdtlsd0", "column_name":"load_date","description":"Date of data loading","data_type":"date"}
+{"table_name":"cfcustdtlsd0", "column_name":"batch_id","description":"Unique identifier for a batch of data","data_type":"int64"}
+{"table_name":"cfcustdtlsd0", "column_name":"start_date","description":"Starting date associated with a record or entry","data_type":"string"}
